@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--head-->
+    <title>Problem Complaint</title>
+  </head>
+
+<label for="complaint">
+  Complaint Details:
+</label>
+        <!--fomr for write down your complaint-->
+        <textarea id="complaint" name="complaint" rows="1" required></textarea>
+        <br><br>
+        
+
+ <!--for specific the place that you complaint-->
+<label for="place">
+  Select Place of Problem:
+</label>
+<select id="place" name="place" required>
+  <option value="" disabled selected>Select a place</option>
+  <option value="dormatery1">Dormatery 1</option>
+  <option value="dormatery5">Dormatery 5</option>
+  <option value="dormatery7">Dormatery 7</option>
+  <option value="in-front-masjid">In front of Masjid</option>
+  <option value="it-faculty">IT Faculty</option>
+  <option value="quran-building">Quran Building</option>
+  <option value="in-front-university">In front of University</option>
+  <option value="education-building">Education Building</option>
+  <option value="others">others</option>
+</select>
+<br><br>
+<!--picture of your complaint-->
+<label for="image">
+  Upload Image:
+</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <br><br>
+        <!--submit button-->
+        <button type="submit">Submit Complaint</button>
+
+ </html>
